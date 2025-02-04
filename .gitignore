@@ -1,0 +1,17 @@
+# Ignore les fichiers de cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore l'environnement virtuel
+venv/
+
+# Ignore les fichiers système macOS
+.DS_Store
+
+# Ignore les fichiers de logs et bases de données locales
+debug.log
+db.sqlite3
+
+# Ignore les variables d'environnement
+.env
