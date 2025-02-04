@@ -64,12 +64,14 @@ python manage.py runserver
 
 🛠 Configuration
 
+```markdown
 SECRET_KEY=votre_clé_secrète
 DEBUG=True
 ALLOWED_HOSTS=*
 EMAIL_BACKEND=django.core.mail.backends.console.EmailBackend
 ONFIDO_API_KEY=votre_clé_onfido
 FRONTEND_URL=http://localhost:3000
+```
 
 📝 License
 
